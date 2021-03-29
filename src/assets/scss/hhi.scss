@@ -1,0 +1,21 @@
+
+// variables and mixins
+@import "hhi-scss/variables";
+@import "hhi-scss/mixins";
+@import "hhi-scss/shadows";
+
+// plugin css
+@import "hhi-scss/plugins/plugin-nouislider";
+@import "hhi-scss/plugins/plugin-perfect-scrollbar";
+@import "hhi-scss/plugins/plugin-react-datetime";
+@import "hhi-scss/plugins/plugin-react-bootstrap-sweetalert";
+@import "hhi-scss/plugins/plugin-react-chartist";
+@import "hhi-scss/plugins/plugin-react-big-calendar";
+@import "hhi-scss/plugins/plugin-react-jvectormap";
+@import "hhi-scss/plugins/plugin-react-table";
+@import "hhi-scss/plugins/plugin-react-tagsinput";
+
+// Core CSS
+@import "hhi-scss/misc";
+@import "hhi-scss/fileupload";
+@import "hhi-scss/fixed-plugin";

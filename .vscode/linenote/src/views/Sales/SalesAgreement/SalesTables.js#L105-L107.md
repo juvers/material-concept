@@ -1,0 +1,1 @@
+* onBlur function to checkf for update on table an update change onblur

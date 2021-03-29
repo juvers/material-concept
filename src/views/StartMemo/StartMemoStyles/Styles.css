@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: #3498db;
+    margin-bottom: 2rem;
+}
+
+.greyp {
+    background: #eee;
+    padding: 10px;
+}
+
+.greyp:hover {
+    cursor: pointer;
+}
+
+.options-input {
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.standard {
+    padding: 10px;
+    background: #18ffff;
+    color: #000;
+}
+
+.standard:hover {
+    background: #00cbcc;
+    cursor: pointer;
+}
+
+.forced {
+    padding: 10px;
+    background: #64ffda;
+    color: #000;
+}
+
+.forced:hover {
+    background: #14cba8;
+    cursor: pointer;
+}
+
+.override {
+    padding: 10px;
+    background: #f48fb1;
+    color: #000;
+}
+
+.override:hover {
+    background: #bf5f82;
+    cursor: pointer;
+}
+
+.hr {
+    border: 1px solid #f00;
+}
+
+.right {
+    float: right;
+}
+
+main {
+    padding: 0 2rem;
+}
+
+#searchListId {
+    /* margin: 1rem; */
+    background: #fff;
+    font-size: 1rem;
+    border: none;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 1rem;
+    /* width: calc(100% - 2rem); */
+    width: 100%;
+    height: 3rem;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    position: relative;
+    list-style: none;
+    /* display: inline-block; */
+    padding: 0.25rem 0.75rem;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li.yes {
+    background: #ffc6e5;
+    color: #940050;
+}
+
+li.yes:hover {
+    background: #ffadd9;
+}
+
+li.no {
+    background: #a0cfee;
+    color: #16527a;
+}
+
+li.no:hover {
+    background: #8bc4ea;
+}
+
+li.ud {
+    background: #00ff00;
+    color: #002700;
+}
+
+li.ud:hover {
+    background: #00e600;
+}
+
+.favourites li:hover:before {
+    content: '\00D7';
+    position: absolute;
+    top: -0.5rem;
+    right: -0.3rem;
+    width: 1rem;
+    height: 1rem;
+    z-index: 2;
+    text-align: center;
+    line-height: 1;
+    font-size: 0.9rem;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #ff6347;
+    border: solid 2px #fff;
+    color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.favourites h4 {
+    padding: 1rem 0;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 0;
+    color: #b3b3b3;
+}
+
+.favourites i {
+    color: #f00;
+    font-weight: 400;
+}
+
+.favourites hr {
+    border-bottom: 0;
+    border-top: solid 1px #e6e6e6;
+    margin: 1.75rem 0;
+}
+
+button {
+    background: #d7d7d7;
+    color: #3b3b3b;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+    border: solid 1px #c7c7c7;
+    margin: 1rem 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    outline: none;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+.wrapper {
+    max-height: 200px;
+    overflow-y: scroll;
+}
